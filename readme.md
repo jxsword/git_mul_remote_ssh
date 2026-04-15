@@ -103,6 +103,8 @@ git remote set-url --add --push origin github3:jxsword/git_mul_remote_ssh.git
 git remote set-url --add --push origin <url>
 ```
 
+关于首次执行 `set-url --add --push origin` 会替换默认推送地址的问题分析和解决方案见 [faq](faq.md)
+
 ### 2. 查看配置结果
 
 ```Bash
