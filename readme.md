@@ -93,7 +93,7 @@ git remote add origin gitee1:jmsword/git_mul_remote_ssh.git
 
 # 为 origin 添加第一个推送地址（默认的推送地址，和 remote add origin <url> 中的地址相同）
 # 这一步是必需的，否则首次执行 set-url --add --push origin <url2> 时，会替换默认的推送地址，
-#   导致推送 url 列表中将不包含默认的推送。
+#   导致推送 url 列表中将不包含默认的推送地址。
 git remote set-url --add --push origin gitee1:jmsword/git_mul_remote_ssh.git
 
 # 为 origin 添加第二个推送地址
